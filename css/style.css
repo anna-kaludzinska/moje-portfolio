@@ -146,4 +146,33 @@ p {
 
 /* Contact section styles */
 
+#contact {
+	background-color: #213b50;
+	color: #fff;
+}
 
+#contact h2 {
+	text-align: left;
+}
+
+#contact #contact_content {
+	font-weight: 300;
+	line-height: 25px;	
+}
+
+#contact #contact_content address {
+	font-style: normal;
+}
+
+#contact #contact_content a {
+	text-decoration: none;
+  	color: #1ac056;;	
+}
+
+#contact #web_icons a {
+	padding: 0 20px;
+	margin: 0 20px;
+	border: 1px #fff solid;
+	font-size: 22px;
+	color: #fff;	
+}
