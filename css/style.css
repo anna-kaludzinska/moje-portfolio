@@ -7,8 +7,10 @@ html, body {
 	margin: 0px;
     padding: 0px;
 }
-	
 
+span {
+	color: #1ac056;
+}
 
 /* Main menu styles */
 
@@ -28,7 +30,7 @@ html, body {
 #main_menu > ul > li {
 	display: inline-block;
 	padding: 20px 40px;
-	list-style: none; 
+	list-style: none;
 }
 
 #main_menu > ul > li > a {
@@ -41,7 +43,23 @@ html, body {
 	color: #291f1a;
 }
 
+/* Main header styles */
 
+#main_header {
+	background-image: url(../img/header-background.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+.main_header_content > h1 {
+	font-family: Roboto, sans-serif;
+}
+
+#main_header .main_header_content {
+	padding: 30vh;
+	text-align: center;
+}
 
 section {
 	color: #f9fcfe;
@@ -51,10 +69,5 @@ footer {
 	color: #213b50;
 }
 
-h1 {
-	
-	font-family: Roboto, sans-serif;
-	text-align: center;
-	font-weight: normal;
-}
+
 
