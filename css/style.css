@@ -31,6 +31,11 @@ section > h2 {
 	margin-bottom: 35px;
 }
 
+p {
+	font-weight: 300;
+	line-height: 25px;
+}
+
 /* Main menu styles */
 
 #main_menu {
@@ -88,7 +93,7 @@ section > h2 {
 	font-weight: 200;
 }
 
-/* Section about me styles */
+/* About me section styles */
 
 #about {
 	color: #291f1a;
@@ -109,11 +114,6 @@ section > h2 {
 	float: right;
 }
 
-#about > article > p {
-	font-weight: 300;
-	line-height: 25px;
-}
-
 #about > figure > img {
 	max-height: 350px;
 	max-width: 100%;
@@ -122,5 +122,28 @@ section > h2 {
 }
 
 
+/* Skills section styles */
+
+#skills article {
+	text-align: center;
+}
+
+#skills div#skills_icons {
+	text-align: center;
+}
+
+#skills div#skills_icons figure {
+	display: inline-block;
+}
+
+#skills #skills_icons figure img {
+	margin-bottom: 15px;
+}
+
+#skills #skills_icons figure figcaption {
+	text-align: center;
+}
+
+/* Contact section styles */
 
 
