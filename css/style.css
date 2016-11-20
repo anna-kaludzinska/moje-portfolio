@@ -1,7 +1,9 @@
 /* General styles */
+* {
+	box-sizing: border-box;
+}
 
 html, body {
-	background-color: aquamarine;
 	font-family: Lato, sans-serif;
 	color: #291f1a;
 	margin: 0px;
@@ -10,6 +12,23 @@ html, body {
 
 span {
 	color: #1ac056;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+section {
+	padding: 0 80px 100px;
+	width: 100%;
+}
+
+section > h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 60px;
+	margin-bottom: 35px;
 }
 
 /* Main menu styles */
@@ -47,13 +66,10 @@ span {
 
 #main_header {
 	background-image: url(../img/header-background.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	color: #fff;
-}
-
-.main_header_content > h1 {
-	font-family: Roboto, sans-serif;
+	color: #fff;	
 }
 
 #main_header .main_header_content {
@@ -61,13 +77,50 @@ span {
 	text-align: center;
 }
 
-section {
-	color: #f9fcfe;
+#main_header .main_header_content > h1 {
+	font-family: Roboto, sans-serif;
+	font-size: 4em;
+	font-weight: 200;
 }
 
-footer {
-	color: #213b50;
+#main_header .main_header_content > h2 {
+	font-size: 2em;
+	font-weight: 200;
 }
+
+/* Section about me styles */
+
+#about {
+	color: #291f1a;
+	background-color: #f9fcfe;
+	overflow: hidden;
+}
+
+#about > figure {
+	width: 50%;
+	margin: 0;
+	float: left;
+	text-align: center;
+	
+}
+
+#about > article {
+	width: 50%;
+	float: right;
+}
+
+#about > article > p {
+	font-weight: 300;
+	line-height: 25px;
+}
+
+#about > figure > img {
+	max-height: 350px;
+	max-width: 100%;
+	border: 15px #fff solid;
+	border-radius: 20px;
+}
+
 
 
 
