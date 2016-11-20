@@ -1,0 +1,21 @@
+/* General styles */
+
+html, body {
+	background-color: aquamarine;
+	color: #291f1a;
+	font-family: Lato, sans-serif;
+}
+
+section {
+	color: #f9fcfe;
+}
+
+footer {
+	color: #213b50;
+}
+
+h1 {
+	font-family: Roboto, sans-serif;
+	text-align: center;
+	font-weight: normal;
+}
