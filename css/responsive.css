@@ -2,9 +2,24 @@
 
 @media all and (max-width: 1200px){
 	
+/* My Portfolio Styles Responsive	*/	
+	#portfolio_images {
+		
+	}
+	
+	#portfolio div#portfolio_images .images {
+		width: 50%;
+	}
+	
+	#portfolio div#portfolio_images div#portfolio3 {
+		width: 100%;
+	}
+	
 }
 
 @media all and (max-width: 768px){
+
+/* Main Menu Responsive */
 	#main_menu .toggle {
 		display: block;
 		color: #1ac056;
@@ -24,15 +39,108 @@
 		display: block;
 	}
 	
+	#main_menu ul li {
+		display: block;
+		padding: 20px;
+		text-align: right;
+	}
+	
+/*	Header styles responsive */
+	#main_header .main_header_content {
+		padding: 25%;
+		text-align: center;
+	}
+	
+/*	About Styles Responsive */
+	#about > figure {
+		width: 100%;
+	}
+	
+	/* #about > figure > img {
+		max-height: inherit;	
+	} */
+	
+	#about > article {
+		width: 100%;	
+	}
+	
+/* My Portfolio Styles Responsive	*/	
+	#portfolio div#portfolio_images .images {
+		width: 100%;
+	}
+	
+	/* Contact Styles Responsive */
+	#contact {
+		text-align: center;
+	}
+	
+	#contact h2 {
+		text-align: center;
+	}
+	
+	#contact #contact_content {
+		width: 100%;
+	}
+	
+	#contact form {
+		width: 100%;
+	}
+	
+	
 	
 }
-
+	
+	
 @media all and (max-width: 680px){
 	
+/*	Header styles responsive */
+	#main_header .main_header_content > h1 {
+		font-size: 3em;
+	}
+	#main_header .main_header_content > h2 {
+		font-size: 1.5em;
+	}
+	
+	section {
+		padding: 0 40px 50px;
+	}
+
 }
 
 @media all and (max-width: 480px){
 	
+/*	Header Styles Responsive */
+	#main_header .main_header_content {
+		padding: 10%;
+	}
+	
+	#main_header .main_header_content > h1 {
+		font-size: 1.5em;
+	}
+	
+	#main_header .main_header_content > h2 {
+		font-size: 1em;
+	}
+	
+/* Contact Styles Responsive */
+	
+	#contact #web_icons div {
+		margin: 0;
+	}
+
+/* Footer Styles Responsive */
+	#footer {
+		text-align: left;
+	}
+	
+	#footer footer {
+		font-size: 80%;
+		display: inline-block;
+	}
+	
+	section {
+		padding: 0 40px 50px;
+	}
 }
 
 /* Responsive Styles Stop* /

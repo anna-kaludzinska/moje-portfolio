@@ -202,6 +202,8 @@ p {
 	margin-top: 2.3%;
 	margin-left: 2.5%;
 	font-weight: 300;
+	left: 0;
+	right: 0;
 }
 
 #portfolio div#portfolio_images div.info div.insidediv:hover {
@@ -253,7 +255,6 @@ p {
 
 #contact div#web_icons {
 	padding-top: 70px;
-	float: left;
 }
 
 #contact #web_icons div {
@@ -264,6 +265,7 @@ p {
 	border: 1px #fff solid;
 	padding: 5px;
 	margin-right: 10px;
+	margin-top: 10px;
 }
 
 #contact #web_icons div:hover {
@@ -285,36 +287,23 @@ p {
 	padding-top: 80px;
 }
 
-#contact > form > p > input#name {
-	width: 500px;
+#contact > form > p > input {
+	width: 100%;
 	padding: 10px;
 	background-color: #637584;
 	color: #fff;
 	border: none;
 	float: right;
 	margin-bottom: 20px;
+	
 }
 
-#contact > form > p > input#name:focus {
-	border: 2px #fff solid;
-}
-
-#contact > form > p > input#email {
-	width: 500px;
-	padding: 10px;
-	background-color: #637584;
-	color: #fff;
-	border: none;
-	float: right;
-	margin-bottom: 20px;
-}
-
-#contact > form > p > input#email:focus {
+#contact > form > p > input:focus {
 	border: 2px #fff solid;
 }
 
 #contact > form > p > textarea {
-	width: 500px;
+	width: 100%;
 	padding: 10px;
 	background-color: #637584;
 	color: #fff;
@@ -327,14 +316,14 @@ p {
 	border: 2px #fff solid;
 }
 
-#contact > form > input#button {
+#contact > form > p > input#button {
 	background-color: #1ac056;
 	color: #fff;
 	border: 2px #fff solid;
 	padding: 10px 25px 10px 25px;
 	font-size: 15px;
 	float: right;
-	
+	width: 100px;
 }
 /* Footer styles */
 
