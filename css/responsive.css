@@ -1,0 +1,38 @@
+/* Responsive Styles Start */
+
+@media all and (max-width: 1200px){
+	
+}
+
+@media all and (max-width: 768px){
+	#main_menu .toggle {
+		display: block;
+		color: #1ac056;
+		padding: 0 20px;
+		font-size: 20px;
+		line-height: 60px;
+		text-decoration: none;
+		border: none;
+		text-align: right;
+	}
+	
+	#main_menu ul {
+		display: none;
+	}
+	
+	#main_menu #drop:checked + ul {
+		display: block;
+	}
+	
+	
+}
+
+@media all and (max-width: 680px){
+	
+}
+
+@media all and (max-width: 480px){
+	
+}
+
+/* Responsive Styles Stop* /
