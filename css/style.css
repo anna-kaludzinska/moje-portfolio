@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-	padding: 0 80px 100px;
+	padding: 20px 80px 80px;
 	width: 100%;
 }
 
@@ -328,6 +328,7 @@ p {
 /* Footer styles */
 
 #footer {
+	padding-top: 0;
 	padding-bottom: 0;
 	background-color: #142533;
 	color: #fff;	
